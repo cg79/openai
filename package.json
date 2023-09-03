@@ -1,0 +1,30 @@
+{
+  "name": "openai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cg79/openai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cg79/openai/issues"
+  },
+  "homepage": "https://github.com/cg79/openai#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.4.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
